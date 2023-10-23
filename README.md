@@ -1,5 +1,7 @@
 # CalculatorApp
 Java实现计算器，并用抽象工厂方法更改外观（实现后）
+![CalculatorApp](https://github.com/liuqasd/CalculatorApp/assets/76517079/f5dd1127-11a5-47a3-9550-e5f44f5c6b3c)
+
 
 在进行使用抽象工厂方法改写计算器程序时，要求更改计算器外观，我先创建了一个接口GUIFactory，在其中定义了包括createButton、createPanel、createTextField和setTheme的抽象方法，用于创建按钮、创建面板、创建文本框和更改主题。
 
